@@ -1,73 +1,115 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="ucsb_favicon.ico">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://webfonts.brand.ucsb.edu/webfont.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Web Page Blocked - Malicious Content</title>
-  </head>
+</head>
+
 <body>
-<header>
-  <div class="container">
-    <div><a href="https://www.ucsb.edu/"><small>University of California, Santa Barbara</small></a></div>
-  </div>
-</header>
-<main role="main" class="container">
-  <div>
-        <p><a href="http://www.ets.ucsb.edu"><img alt="UC Santa Barbara Enterprise Technology Services" class="img-fluid" src="UC-Santa-Barbara-ETS_Navy-RGB.svg" width="500" /></a></p>
-  </div>
-  <div class="row">
-    <div class="col">
-        <div class="card">
-            <h1 class="card-header text-center">Web Page Blocked - Malicious Content</h1>
-            <div class="card-body">
-                <p class="card-text">&nbsp;<br />
-                A web page was <span class="badge badge-danger">blocked</span> because the page contains malicious content (phishing or malware).<br /> <p>
-                 Your device is being <span class="badge badge-success">protected</span> from malicious activity by UCSB's Unified Threat Management systems.
-                </p><br /><br />
-                <p><strong>User/IP Address:</strong> <user/></p>
-                <p><strong>URL:</strong> <url/> </p>
-                <p><strong>Category:</strong> <category/> </p>
-                <p><strong>Date/Time:</strong>&nbsp;<span id="date"> </p>
-                <script>
-                    document.getElementById("date").innerHTML = Date();
-                    </script>
-                </p>
-            </div>
-            <div class="card-footer text-dark">
-                If you believe you have received this message in error, please contact your local network administrator, or the Enterprise Technology Service Center (ETSC) at (805) 893-5000. <P><BR>
-                For more information about Palo Alto Networks' URL Filtering (PAN-DB),  visit their site at <a href="https://www.paloaltonetworks.com/products/secure-the-network/subscriptions/url-filtering-pandb">https://www.paloaltonetworks.com/products/secure-the-network/subscriptions/url-filtering-pandb</a> 
+    <header>
+        <div class="container">
+            <div>
+                <a href="https://www.ucsb.edu/">
+                    <small>University of California, Santa Barbara</small>
+                </a>
             </div>
         </div>
-    </div>
-  </div>
-</main>
-<div class="footer-top">
-    <div class="container">
+    </header>
+    <main role="main" class="container">
+        <div>
+            <p>
+                <a href="http://www.ets.ucsb.edu">
+                    <img alt="UC Santa Barbara Enterprise Technology Services" class="img-fluid" src="UC-Santa-Barbara-ETS_Navy-RGB.svg"
+                        width="500" />
+                </a>
+            </p>
+        </div>
         <div class="row">
-            <div class="col-md-12">
-            <p><img alt="University of California, Santa Barbara seal" src="UC-Santa-Barbara-seal-White%20RGB.png" width="100" /></p>
-            <hr />
-            <p><strong>Enterprise Technology Services</strong><br />
-            UC Santa Barbara<br />
-            4101 SAASB<br />
-            Santa Barbara, California 93106-3020<br />
-            (805) 893-5000</p>
-            </div>            
+            <div class="col">
+                <div class="card">
+                    <h1 class="card-header text-center">Web Page Blocked - Malicious Content</h1>
+                    <div class="card-body">
+                        <p class="card-text">&nbsp;
+                            <br /> A web page was
+                            <span class="badge badge-danger">blocked</span> because the page contains malicious content (phishing or malware).
+                            <br />
+                            <p>
+                                Your device is being
+                                <span class="badge badge-success">protected</span> from malicious activity by UCSB's Unified Threat Management systems.
+                            </p>
+                            <br />
+                            <br />
+                            <p>
+                                <strong>User/IP Address:</strong>
+                                <user/>
+                            </p>
+                            <p>
+                                <strong>URL:</strong>
+                                <url/> </p>
+                            <p>
+                                <strong>Category:</strong>
+                                <category/> </p>
+                            <p>
+                                <strong>Date/Time:</strong>&nbsp;
+                                <span id="date">
+                            </p>
+                            <script>
+                                document.getElementById("date").innerHTML = Date();
+                            </script>
+                        </p>
+                    </div>
+                    <div class="card-footer text-dark">
+                        If you believe you have received this message in error, please contact your local network administrator, or the Enterprise
+                        Technology Service Center (ETSC) at (805) 893-5000.
+                        <P>
+                            <BR> For more information about Palo Alto Networks' URL Filtering (PAN-DB), visit their site at
+                            <a
+                                href="https://www.paloaltonetworks.com/products/secure-the-network/subscriptions/url-filtering-pandb">https://www.paloaltonetworks.com/products/secure-the-network/subscriptions/url-filtering-pandb</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        <img alt="University of California, Santa Barbara seal" src="UC-Santa-Barbara-seal-White%20RGB.png" width="100"
+                        />
+                    </p>
+                    <hr />
+                    <p>
+                        <strong>Enterprise Technology Services</strong>
+                        <br /> UC Santa Barbara
+                        <br /> 4101 SAASB
+                        <br /> Santa Barbara, California 93106-3020
+                        <br /> (805) 893-5000</p>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-8"><small>Copyright ©&nbsp;<a href="http://regents.universityofcalifornia.edu/">The Regents of the University of California</a> &nbsp; All Rights Reserved. &nbsp; <a href="http://www.policy.ucsb.edu/terms-of-use">Terms of Use</a></small></div>
-        </div>            
-      </div>
-</footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8">
+                    <small>Copyright ©&nbsp;
+                        <a href="http://regents.universityofcalifornia.edu/">The Regents of the University of California</a> &nbsp; All Rights Reserved. &nbsp;
+                        <a href="http://www.policy.ucsb.edu/terms-of-use">Terms of Use</a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
