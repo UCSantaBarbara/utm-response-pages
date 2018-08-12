@@ -12,6 +12,15 @@ body {
   color: #3d4952;
 }
 
+a {
+  color: #07528C;
+}
+
+a:hover,
+a:focus {
+  color: #003660;
+}
+
 hr {
   border-top-color: #fff;
 }
