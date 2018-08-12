@@ -56,3 +56,11 @@ header a:focus {
 .footer a:focus {
   color: #fff;
 }
+
+.badge-danger {
+  background-color: #ef5645;
+}
+
+.badge-success {
+    background-color: #0ba89a;
+  }
