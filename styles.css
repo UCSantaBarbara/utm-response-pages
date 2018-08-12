@@ -4,7 +4,7 @@ html {
   }
 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   background-color: #fff;
   font-family: Avenir, "Century Gothic", sans-serif;
   font-weight: 200;
@@ -16,13 +16,29 @@ hr {
   border-top-color: #fff;
 }
 
+.footer-top {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  line-height: 1.8;
+  background-color: #003660;
+  color: #fff;
+  padding: 35px 75px 0 75px;
+  }
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 200px;
-  line-height: 1.8; /* Vertically center the text there */
-  background-color: #003660;
+  height: 50px;
+  line-height: 1.8;
+  background-color: #002b4c;
   color: #fff;
+  padding: 10px 50px 50px 50px;
   }
+
+.footer a,
+.footer a:hover,
+.footer a:focus {
+  color: #fff;
+}
