@@ -16,6 +16,19 @@ hr {
   border-top-color: #fff;
 }
 
+header {
+  background: #002b4c;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 8px 75px 8px 75px;
+}
+
+header a,
+header a:hover,
+header a:focus {
+  color: #fff;
+}
+
 .footer-top {
   position: relative;
   width: 100%;
@@ -23,8 +36,9 @@ hr {
   line-height: 1.8;
   background-color: #003660;
   color: #fff;
+  margin-top: 50px;
   padding: 35px 75px 0 75px;
-  }
+}
 
 .footer {
   position: absolute;
